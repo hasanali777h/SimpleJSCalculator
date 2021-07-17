@@ -1,0 +1,46 @@
+.container {
+  position: absolute;
+  padding-left: 40%;
+  margin-top: 60px;
+}
+.input {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  font-weight: normal;
+  margin-bottom: 4px;
+  width: 165px;
+  text-align: right;
+}
+.output {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-bottom: 4px;
+  width: 165px;
+  text-align: right;
+}
+.btn {
+  width: 84px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.bbtn {
+  width: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+body {
+  background-color: darkseagreen;
+}
+.nc {
+  background-color: darkgray;
+  border: darkgray;
+}
+.opc1 {
+  background-color: green;
+  border: green;
+}
+.opc2 {
+  background-color: salmon;
+  border: salmon;
+}

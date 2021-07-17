@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JS Calculator</title>
+  </head>
+
+  <body>
+    <!--  <input type="text" id="n1" /><br /><br />
+    <input type="text" id="n2" /><br /><br />
+
+    <select id="operators">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="/">/</option>
+      <option value="*">*</option>
+    </select>
+
+    <button onclick="calc();">=</button>
+    <input type="text" id="result" /> -->
+    <div class="container">
+      <div>
+        <div>
+          <div class="input">
+            <input class="input" type="text" id="input" placeholder="0" />
+          </div>
+          <div class="output">
+            <input class="output" type="text" id="result" placeholder="0" />
+          </div>
+        </div>
+        <div>
+          <button class="btn opc1" id="c" onclick="func()">C</button>
+          <button class="bbtn opc2" id="ce" onclick="func2()">CE</button>
+          <button class="bbtn nc" id="div" onclick="disPlay('/')">/</button>
+        </div>
+        <div>
+          <button class="bbtn nc" id="seven" onclick="disPlay(7)">7</button>
+          <button class="bbtn nc" id="eight" onclick="disPlay(8)">8</button>
+          <button class="bbtn nc" id="nine" onclick="disPlay(9)">9</button>
+          <button class="bbtn nc" id="mul" onclick="disPlay('*')">*</button>
+        </div>
+        <div>
+          <button class="bbtn nc" id="four" onclick="disPlay(4)">4</button>
+          <button class="bbtn nc" id="five" onclick="disPlay(5)">5</button>
+          <button class="bbtn nc" id="six" onclick="disPlay(6)">6</button>
+          <button class="bbtn nc" id="plus" onclick="disPlay('+')">+</button>
+        </div>
+        <div>
+          <button class="bbtn nc" id="one" onclick="disPlay(1)">1</button>
+          <button class="bbtn nc" id="two" onclick="disPlay(2)">2</button>
+          <button class="bbtn nc" id="three" onclick="disPlay(3)">3</button>
+          <button class="bbtn nc" id="minus" onclick="disPlay('-')">-</button>
+        </div>
+        <div>
+          <button class="bbtn nc" id="zero" onclick="disPlay(0)">0</button>
+          <button class="btn nc" id="equal" onclick="calc()">=</button>
+          <button class="bbtn nc" id="dot" onclick="disPlay('.')">.</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
